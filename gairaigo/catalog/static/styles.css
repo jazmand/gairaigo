@@ -1,0 +1,25 @@
+body {
+    margin-top: 20em;
+}
+
+.jp{
+    color: lightblue;
+    padding-right: 50px;
+    font-size: 8em;
+}
+.eng {
+    color: orange;
+    font-size: 9.5em;
+}
+@media (max-width: 1090px) {
+    .words{
+        flex-direction: column;
+    }
+    .jp{
+        font-size: 6em;
+        padding-right: 0px;
+    }
+    .eng {
+        font-size: 7.5em;
+    }    
+}
