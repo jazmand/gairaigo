@@ -8,13 +8,13 @@ def generate(request):
     df = pd.read_excel (r'C:\Users\Judi\Desktop\Programming\GitHub Repositories\gairaigo\GairaigoExcel.xlsx')
 
     x=[]
-    for value in  df.iloc[:, 1]:
+    for value in  df.iloc[:, 0]:
         x.append(value)
     jp = random.choice(x)
     index = x.index(jp)
 
     y=[]
-    for value in  df.iloc[:, 2]:
+    for value in  df.iloc[:, 1]:
         y.append(value)
     eng = y[index]    
 
