@@ -12,9 +12,6 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'locallibrary.settings'
 ###### then, for Django >=1.5:
 from django.core.wsgi import get_wsgi_application
 
-from dotenv import load_dotenv
-load_dotenv(r'/home/jazmand/gairaigo/gairaigo/.env')
-
 application = get_wsgi_application()
 ###### or, for older Django <=1.4
 #import django.core.handlers.wsgi
