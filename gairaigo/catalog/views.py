@@ -5,7 +5,7 @@ import random
 
 # Create your views here.
 def generate(request):
-    df = pd.read_excel (r'/gairaigo/GairaigoExcel.xlsx')
+    df = pd.read_excel ("../GairaigoExcel.xlsx")
 
     x=[]
     for value in  df.iloc[:, 0]:
